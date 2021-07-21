@@ -1,0 +1,54 @@
+{
+  "clusters": [
+    {
+      "vk": {
+        "token": "99be70a...",
+        "group_id": "durov",
+        "keywords": ["собака", "яблоко"],
+        "words_blacklist": ["груша"],
+        "filter": true,
+        "donut": false,
+        "ads": false,
+        "longpoll": false,
+        "interval": 30
+      },
+      "discord": {
+        "webhook_urls": [
+          "https://discordapp.com/api/webhooks/730807540459241472/..."
+        ],
+        "username": "VK2Discord",
+        "avatar_url": "https://sun9-29.userapi.com/rmoNl3t2KfRZlNpFbAwSEzeDwML-xczsHU6y1A/HApWIpxjkT4.jpg",
+        "content": "@everyone",
+        "color": "#aabbcc",
+        "author": true,
+        "copyright": false
+      }
+    },
+    {
+      "vk": {
+        "token": "43bf71a...",
+        "group_id": "club1",
+        "keywords": [],
+        "words_blacklist": ["банан"],
+        "filter": true,
+        "donut": true,
+        "ads": false,
+        "longpoll": true,
+        "interval": 30
+      },
+      "discord": {
+        "webhook_urls": [
+          "https://discordapp.com/api/webhooks/730807540459241472/...",
+          "https://discordapp.com/api/webhooks/234556456456567632/..."
+        ],
+        "username": "",
+        "avatar_url": "",
+        "content": "",
+        "color": "#ffbbff",
+        "author": true,
+        "copyright": true
+      }
+    }
+  ],
+  "version_dont_modify_me": 4
+}
